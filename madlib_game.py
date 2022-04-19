@@ -2,14 +2,12 @@ import madlibs as mlib
 
 madlib = mlib.Madlib()
 
-party_story = "Party Story"
-computer_program_story = "Computer Programing Story"
-
-Title = f'{party_story} or {computer_program_story}'
-print(Title)
-
 
 def play_madlib():
+    party_story = "Party Story"
+    computer_program_story = "Computer Programing Story"
+    title = f'{party_story} or {computer_program_story}'
+    print(title)
     misspelled = "Sorry, that choice is invalid"
     story_to_play = input("Type what story you want to play: ")
 
